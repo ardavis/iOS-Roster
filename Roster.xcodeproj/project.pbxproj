@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB48AD8314D8C7FA00D8FF67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48AD8214D8C7FA00D8FF67 /* UIKit.framework */; };
+		EB48AD8514D8C7FA00D8FF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48AD8414D8C7FA00D8FF67 /* Foundation.framework */; };
+		EB48AD8714D8C7FA00D8FF67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48AD8614D8C7FA00D8FF67 /* CoreGraphics.framework */; };
+		EB48AD8D14D8C7FA00D8FF67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB48AD8B14D8C7FA00D8FF67 /* InfoPlist.strings */; };
+		EB48AD8F14D8C7FA00D8FF67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48AD8E14D8C7FA00D8FF67 /* main.m */; };
+		EB48AD9314D8C7FB00D8FF67 /* RosterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48AD9214D8C7FB00D8FF67 /* RosterAppDelegate.m */; };
+		EB48AD9614D8C7FB00D8FF67 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB48AD9414D8C7FB00D8FF67 /* MainStoryboard.storyboard */; };
+		EB48AD9914D8C7FB00D8FF67 /* RosterMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48AD9814D8C7FB00D8FF67 /* RosterMasterViewController.m */; };
+		EB48AD9C14D8C7FB00D8FF67 /* RosterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48AD9B14D8C7FB00D8FF67 /* RosterDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB48AD7E14D8C7FA00D8FF67 /* Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB48AD8214D8C7FA00D8FF67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB48AD8414D8C7FA00D8FF67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB48AD8614D8C7FA00D8FF67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB48AD8A14D8C7FA00D8FF67 /* Roster-Info.plist */ = {isa = PBXFileReference; path = "Roster-Info.plist"; sourceTree = "<group>"; };
+		EB48AD8C14D8C7FA00D8FF67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB48AD8E14D8C7FA00D8FF67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB48AD9014D8C7FB00D8FF67 /* Roster-Prefix.pch */ = {isa = PBXFileReference; path = "Roster-Prefix.pch"; sourceTree = "<group>"; };
+		EB48AD9114D8C7FB00D8FF67 /* RosterAppDelegate.h */ = {isa = PBXFileReference; path = RosterAppDelegate.h; sourceTree = "<group>"; };
+		EB48AD9214D8C7FB00D8FF67 /* RosterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterAppDelegate.m; sourceTree = "<group>"; };
+		EB48AD9514D8C7FB00D8FF67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EB48AD9714D8C7FB00D8FF67 /* RosterMasterViewController.h */ = {isa = PBXFileReference; path = RosterMasterViewController.h; sourceTree = "<group>"; };
+		EB48AD9814D8C7FB00D8FF67 /* RosterMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterMasterViewController.m; sourceTree = "<group>"; };
+		EB48AD9A14D8C7FB00D8FF67 /* RosterDetailViewController.h */ = {isa = PBXFileReference; path = RosterDetailViewController.h; sourceTree = "<group>"; };
+		EB48AD9B14D8C7FB00D8FF67 /* RosterDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB48AD7B14D8C7FA00D8FF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB48AD8314D8C7FA00D8FF67 /* UIKit.framework in Frameworks */,
+				EB48AD8514D8C7FA00D8FF67 /* Foundation.framework in Frameworks */,
+				EB48AD8714D8C7FA00D8FF67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB48AD7314D8C7FA00D8FF67 = {
+			isa = PBXGroup;
+			children = (
+				EB48AD8814D8C7FA00D8FF67 /* Roster */,
+				EB48AD8114D8C7FA00D8FF67 /* Frameworks */,
+				EB48AD7F14D8C7FA00D8FF67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB48AD7F14D8C7FA00D8FF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB48AD7E14D8C7FA00D8FF67 /* Roster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB48AD8114D8C7FA00D8FF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB48AD8214D8C7FA00D8FF67 /* UIKit.framework */,
+				EB48AD8414D8C7FA00D8FF67 /* Foundation.framework */,
+				EB48AD8614D8C7FA00D8FF67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB48AD8814D8C7FA00D8FF67 /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				EB48AD9114D8C7FB00D8FF67 /* RosterAppDelegate.h */,
+				EB48AD9214D8C7FB00D8FF67 /* RosterAppDelegate.m */,
+				EB48AD9414D8C7FB00D8FF67 /* MainStoryboard.storyboard */,
+				EB48AD9714D8C7FB00D8FF67 /* RosterMasterViewController.h */,
+				EB48AD9814D8C7FB00D8FF67 /* RosterMasterViewController.m */,
+				EB48AD9A14D8C7FB00D8FF67 /* RosterDetailViewController.h */,
+				EB48AD9B14D8C7FB00D8FF67 /* RosterDetailViewController.m */,
+				EB48AD8914D8C7FA00D8FF67 /* Supporting Files */,
+			);
+			path = Roster;
+			sourceTree = "<group>";
+		};
+		EB48AD8914D8C7FA00D8FF67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB48AD8A14D8C7FA00D8FF67 /* Roster-Info.plist */,
+				EB48AD8B14D8C7FA00D8FF67 /* InfoPlist.strings */,
+				EB48AD8E14D8C7FA00D8FF67 /* main.m */,
+				EB48AD9014D8C7FB00D8FF67 /* Roster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB48AD7D14D8C7FA00D8FF67 /* Roster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB48AD9F14D8C7FB00D8FF67 /* Build configuration list for PBXNativeTarget "Roster" */;
+			buildPhases = (
+				EB48AD7A14D8C7FA00D8FF67 /* Sources */,
+				EB48AD7B14D8C7FA00D8FF67 /* Frameworks */,
+				EB48AD7C14D8C7FA00D8FF67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roster;
+			productName = Roster;
+			productReference = EB48AD7E14D8C7FA00D8FF67 /* Roster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB48AD7514D8C7FA00D8FF67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NASA;
+			};
+			buildConfigurationList = EB48AD7814D8C7FA00D8FF67 /* Build configuration list for PBXProject "Roster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB48AD7314D8C7FA00D8FF67;
+			productRefGroup = EB48AD7F14D8C7FA00D8FF67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB48AD7D14D8C7FA00D8FF67 /* Roster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB48AD7C14D8C7FA00D8FF67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB48AD8D14D8C7FA00D8FF67 /* InfoPlist.strings in Resources */,
+				EB48AD9614D8C7FB00D8FF67 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB48AD7A14D8C7FA00D8FF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB48AD8F14D8C7FA00D8FF67 /* main.m in Sources */,
+				EB48AD9314D8C7FB00D8FF67 /* RosterAppDelegate.m in Sources */,
+				EB48AD9914D8C7FB00D8FF67 /* RosterMasterViewController.m in Sources */,
+				EB48AD9C14D8C7FB00D8FF67 /* RosterDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB48AD8B14D8C7FA00D8FF67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB48AD8C14D8C7FA00D8FF67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB48AD9414D8C7FB00D8FF67 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB48AD9514D8C7FB00D8FF67 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB48AD9D14D8C7FB00D8FF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB48AD9E14D8C7FB00D8FF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB48ADA014D8C7FB00D8FF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roster/Roster-Prefix.pch";
+				INFOPLIST_FILE = "Roster/Roster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB48ADA114D8C7FB00D8FF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roster/Roster-Prefix.pch";
+				INFOPLIST_FILE = "Roster/Roster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB48AD7814D8C7FA00D8FF67 /* Build configuration list for PBXProject "Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB48AD9D14D8C7FB00D8FF67 /* Debug */,
+				EB48AD9E14D8C7FB00D8FF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB48AD9F14D8C7FB00D8FF67 /* Build configuration list for PBXNativeTarget "Roster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB48ADA014D8C7FB00D8FF67 /* Debug */,
+				EB48ADA114D8C7FB00D8FF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB48AD7514D8C7FA00D8FF67 /* Project object */;
+}
