@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>fileName</key>
+		<string>ackbar_trap</string>
+		<key>fileInfo</key>
+		<string>It&apos;s a trap!</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>fileName</key>
+		<string>assassin_droid</string>
+		<key>fileInfo</key>
+		<string>ASSASSIN!</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>fileName</key>
+		<string>c3p0_r2d2.png</string>
+		<key>fileInfo</key>
+		<string>C3-P0 and R2D2</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>fileName</key>
+		<string>darth_vader_faith</string>
+		<key>fileInfo</key>
+		<string>Darth Vader Has Faith</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>fileName</key>
+		<string>darth_vader_harmonica</string>
+		<key>fileInfo</key>
+		<string>Sounds good to me</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>fileName</key>
+		<string>death_star_earth</string>
+		<key>fileInfo</key>
+		<string>Shiny</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>fileName</key>
+		<string>dog_ewok</string>
+		<key>fileInfo</key>
+		<string>Ewok Doggy!</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>fileName</key>
+		<string>ewok</string>
+		<key>fileInfo</key>
+		<string>Super Cuteness!</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>fileName</key>
+		<string>hello_vader</string>
+		<key>fileInfo</key>
+		<string>Darth Vader</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>fileName</key>
+		<string>insomnia_stormtrooper</string>
+		<key>fileInfo</key>
+		<string>No sleeping!!</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>fileName</key>
+		<string>jango_fett</string>
+		<key>fileInfo</key>
+		<string>Pew Pew!</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>fileName</key>
+		<string>lego_stormtrooper</string>
+		<key>fileInfo</key>
+		<string>Seems a bit blocky!</string>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>fileName</key>
+		<string>obi_wan</string>
+		<key>fileInfo</key>
+		<string>&apos;Ello Obi Wan Kenobi</string>
+	</dict>
+	<key>13</key>
+	<dict>
+		<key>fileName</key>
+		<string>revenge_of_the_jedi</string>
+		<key>fileInfo</key>
+		<string>Jedi Revenge Time</string>
+	</dict>
+	<key>14</key>
+	<dict>
+		<key>fileName</key>
+		<string>revenge_of_the_sith</string>
+		<key>fileInfo</key>
+		<string>Sith Revenge Time</string>
+	</dict>
+	<key>15</key>
+	<dict>
+		<key>fileName</key>
+		<string>sith_eye</string>
+		<key>fileInfo</key>
+		<string>DROID</string>
+	</dict>
+	<key>16</key>
+	<dict>
+		<key>fileName</key>
+		<string>star_wars_gang</string>
+		<key>fileInfo</key>
+		<string>Everyone is here!</string>
+	</dict>
+	<key>17</key>
+	<dict>
+		<key>fileName</key>
+		<string>vader</string>
+		<key>fileInfo</key>
+		<string>Darth Vader</string>
+	</dict>
+	<key>18</key>
+	<dict>
+		<key>fileName</key>
+		<string>yoda</string>
+		<key>fileInfo</key>
+		<string>Program, you must!</string>
+	</dict>
+	<key>19</key>
+	<dict>
+		<key>fileName</key>
+		<string>yummy_cookies</string>
+		<key>fileInfo</key>
+		<string>I want to eat them!</string>
+	</dict>
+</dict>
+</plist>

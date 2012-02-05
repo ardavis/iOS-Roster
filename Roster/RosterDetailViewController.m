@@ -15,7 +15,8 @@
 @implementation RosterDetailViewController
 
 @synthesize detailItem = _detailItem;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
+@synthesize detailImage = _detailImage;
+@synthesize detailInfo = _detailInfo;
 
 #pragma mark - Managing the detail item
 
@@ -34,7 +35,9 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        NSLog(@"Configuring View: %@", self.detailItem);
+        self.detailImage.image = [UIImage imageNamed:[self.detailItem objectForKey:@"fileName"]];
+        self.detailInfo.text = [self.detailItem objectForKey:@"fileInfo"];
     }
 }
 
@@ -55,6 +58,7 @@
 
 - (void)viewDidUnload
 {
+    [self setDetailImage:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

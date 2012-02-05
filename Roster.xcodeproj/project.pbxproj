@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB39CE7114DC7B0000B4CB9D /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = EB39CE6F14DC7B0000B4CB9D /* Home.png */; };
+		EB39CE7214DC7B0000B4CB9D /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = EB39CE7014DC7B0000B4CB9D /* Contact.png */; };
 		EB48AD8314D8C7FA00D8FF67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48AD8214D8C7FA00D8FF67 /* UIKit.framework */; };
 		EB48AD8514D8C7FA00D8FF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48AD8414D8C7FA00D8FF67 /* Foundation.framework */; };
 		EB48AD8714D8C7FA00D8FF67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB48AD8614D8C7FA00D8FF67 /* CoreGraphics.framework */; };
@@ -16,24 +18,71 @@
 		EB48AD9614D8C7FB00D8FF67 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB48AD9414D8C7FB00D8FF67 /* MainStoryboard.storyboard */; };
 		EB48AD9914D8C7FB00D8FF67 /* RosterMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48AD9814D8C7FB00D8FF67 /* RosterMasterViewController.m */; };
 		EB48AD9C14D8C7FB00D8FF67 /* RosterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48AD9B14D8C7FB00D8FF67 /* RosterDetailViewController.m */; };
+		EB48ADA414D98C7C00D8FF67 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB48ADA314D98C7C00D8FF67 /* AboutViewController.m */; };
+		EB48ADBC14DB24EF00D8FF67 /* ackbar_trap.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADA814DB24EF00D8FF67 /* ackbar_trap.png */; };
+		EB48ADBD14DB24EF00D8FF67 /* assassin_droid.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADA914DB24EF00D8FF67 /* assassin_droid.png */; };
+		EB48ADBE14DB24EF00D8FF67 /* c3p0_r2d2.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADAA14DB24EF00D8FF67 /* c3p0_r2d2.png */; };
+		EB48ADBF14DB24EF00D8FF67 /* darth_vader_faith.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADAB14DB24EF00D8FF67 /* darth_vader_faith.png */; };
+		EB48ADC014DB24EF00D8FF67 /* darth_vader_harmonica.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADAC14DB24EF00D8FF67 /* darth_vader_harmonica.png */; };
+		EB48ADC114DB24EF00D8FF67 /* death_star_earth.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADAD14DB24EF00D8FF67 /* death_star_earth.png */; };
+		EB48ADC214DB24EF00D8FF67 /* dog_ewok.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADAE14DB24EF00D8FF67 /* dog_ewok.png */; };
+		EB48ADC314DB24EF00D8FF67 /* ewok.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADAF14DB24EF00D8FF67 /* ewok.png */; };
+		EB48ADC414DB24EF00D8FF67 /* hello_vader.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB014DB24EF00D8FF67 /* hello_vader.png */; };
+		EB48ADC514DB24EF00D8FF67 /* insomnia_stormtrooper.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB114DB24EF00D8FF67 /* insomnia_stormtrooper.png */; };
+		EB48ADC614DB24EF00D8FF67 /* jango_fett.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB214DB24EF00D8FF67 /* jango_fett.png */; };
+		EB48ADC714DB24EF00D8FF67 /* lego_stormtrooper.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB314DB24EF00D8FF67 /* lego_stormtrooper.png */; };
+		EB48ADC814DB24EF00D8FF67 /* obi_wan.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB414DB24EF00D8FF67 /* obi_wan.png */; };
+		EB48ADC914DB24EF00D8FF67 /* revenge_of_the_jedi.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB514DB24EF00D8FF67 /* revenge_of_the_jedi.png */; };
+		EB48ADCA14DB24EF00D8FF67 /* revenge_of_the_sith.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB614DB24EF00D8FF67 /* revenge_of_the_sith.png */; };
+		EB48ADCB14DB24EF00D8FF67 /* sith_eye.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB714DB24EF00D8FF67 /* sith_eye.png */; };
+		EB48ADCC14DB24EF00D8FF67 /* star_wars_gang.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB814DB24EF00D8FF67 /* star_wars_gang.png */; };
+		EB48ADCD14DB24EF00D8FF67 /* vader.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADB914DB24EF00D8FF67 /* vader.png */; };
+		EB48ADCE14DB24EF00D8FF67 /* yoda.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADBA14DB24EF00D8FF67 /* yoda.png */; };
+		EB48ADCF14DB24EF00D8FF67 /* yummy_cookies.png in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADBB14DB24EF00D8FF67 /* yummy_cookies.png */; };
+		EB48ADD314DB25C700D8FF67 /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB48ADD214DB25C700D8FF67 /* images.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB39CE6F14DC7B0000B4CB9D /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		EB39CE7014DC7B0000B4CB9D /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
 		EB48AD7E14D8C7FA00D8FF67 /* Roster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB48AD8214D8C7FA00D8FF67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB48AD8414D8C7FA00D8FF67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB48AD8614D8C7FA00D8FF67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EB48AD8A14D8C7FA00D8FF67 /* Roster-Info.plist */ = {isa = PBXFileReference; path = "Roster-Info.plist"; sourceTree = "<group>"; };
+		EB48AD8A14D8C7FA00D8FF67 /* Roster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roster-Info.plist"; sourceTree = "<group>"; };
 		EB48AD8C14D8C7FA00D8FF67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB48AD8E14D8C7FA00D8FF67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB48AD9014D8C7FB00D8FF67 /* Roster-Prefix.pch */ = {isa = PBXFileReference; path = "Roster-Prefix.pch"; sourceTree = "<group>"; };
-		EB48AD9114D8C7FB00D8FF67 /* RosterAppDelegate.h */ = {isa = PBXFileReference; path = RosterAppDelegate.h; sourceTree = "<group>"; };
+		EB48AD9014D8C7FB00D8FF67 /* Roster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roster-Prefix.pch"; sourceTree = "<group>"; };
+		EB48AD9114D8C7FB00D8FF67 /* RosterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RosterAppDelegate.h; sourceTree = "<group>"; };
 		EB48AD9214D8C7FB00D8FF67 /* RosterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterAppDelegate.m; sourceTree = "<group>"; };
 		EB48AD9514D8C7FB00D8FF67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EB48AD9714D8C7FB00D8FF67 /* RosterMasterViewController.h */ = {isa = PBXFileReference; path = RosterMasterViewController.h; sourceTree = "<group>"; };
+		EB48AD9714D8C7FB00D8FF67 /* RosterMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RosterMasterViewController.h; sourceTree = "<group>"; };
 		EB48AD9814D8C7FB00D8FF67 /* RosterMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterMasterViewController.m; sourceTree = "<group>"; };
-		EB48AD9A14D8C7FB00D8FF67 /* RosterDetailViewController.h */ = {isa = PBXFileReference; path = RosterDetailViewController.h; sourceTree = "<group>"; };
+		EB48AD9A14D8C7FB00D8FF67 /* RosterDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RosterDetailViewController.h; sourceTree = "<group>"; };
 		EB48AD9B14D8C7FB00D8FF67 /* RosterDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosterDetailViewController.m; sourceTree = "<group>"; };
+		EB48ADA214D98C7C00D8FF67 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		EB48ADA314D98C7C00D8FF67 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		EB48ADA814DB24EF00D8FF67 /* ackbar_trap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ackbar_trap.png; sourceTree = "<group>"; };
+		EB48ADA914DB24EF00D8FF67 /* assassin_droid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assassin_droid.png; sourceTree = "<group>"; };
+		EB48ADAA14DB24EF00D8FF67 /* c3p0_r2d2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c3p0_r2d2.png; sourceTree = "<group>"; };
+		EB48ADAB14DB24EF00D8FF67 /* darth_vader_faith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darth_vader_faith.png; sourceTree = "<group>"; };
+		EB48ADAC14DB24EF00D8FF67 /* darth_vader_harmonica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darth_vader_harmonica.png; sourceTree = "<group>"; };
+		EB48ADAD14DB24EF00D8FF67 /* death_star_earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death_star_earth.png; sourceTree = "<group>"; };
+		EB48ADAE14DB24EF00D8FF67 /* dog_ewok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog_ewok.png; sourceTree = "<group>"; };
+		EB48ADAF14DB24EF00D8FF67 /* ewok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ewok.png; sourceTree = "<group>"; };
+		EB48ADB014DB24EF00D8FF67 /* hello_vader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello_vader.png; sourceTree = "<group>"; };
+		EB48ADB114DB24EF00D8FF67 /* insomnia_stormtrooper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insomnia_stormtrooper.png; sourceTree = "<group>"; };
+		EB48ADB214DB24EF00D8FF67 /* jango_fett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jango_fett.png; sourceTree = "<group>"; };
+		EB48ADB314DB24EF00D8FF67 /* lego_stormtrooper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lego_stormtrooper.png; sourceTree = "<group>"; };
+		EB48ADB414DB24EF00D8FF67 /* obi_wan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obi_wan.png; sourceTree = "<group>"; };
+		EB48ADB514DB24EF00D8FF67 /* revenge_of_the_jedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revenge_of_the_jedi.png; sourceTree = "<group>"; };
+		EB48ADB614DB24EF00D8FF67 /* revenge_of_the_sith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revenge_of_the_sith.png; sourceTree = "<group>"; };
+		EB48ADB714DB24EF00D8FF67 /* sith_eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sith_eye.png; sourceTree = "<group>"; };
+		EB48ADB814DB24EF00D8FF67 /* star_wars_gang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_wars_gang.png; sourceTree = "<group>"; };
+		EB48ADB914DB24EF00D8FF67 /* vader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vader.png; sourceTree = "<group>"; };
+		EB48ADBA14DB24EF00D8FF67 /* yoda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoda.png; sourceTree = "<group>"; };
+		EB48ADBB14DB24EF00D8FF67 /* yummy_cookies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yummy_cookies.png; sourceTree = "<group>"; };
+		EB48ADD214DB25C700D8FF67 /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = images.plist; path = Roster/images.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +102,7 @@
 		EB48AD7314D8C7FA00D8FF67 = {
 			isa = PBXGroup;
 			children = (
+				EB48ADD214DB25C700D8FF67 /* images.plist */,
 				EB48AD8814D8C7FA00D8FF67 /* Roster */,
 				EB48AD8114D8C7FA00D8FF67 /* Frameworks */,
 				EB48AD7F14D8C7FA00D8FF67 /* Products */,
@@ -80,9 +130,12 @@
 		EB48AD8814D8C7FA00D8FF67 /* Roster */ = {
 			isa = PBXGroup;
 			children = (
+				EB48ADA714DB24EF00D8FF67 /* images */,
 				EB48AD9114D8C7FB00D8FF67 /* RosterAppDelegate.h */,
 				EB48AD9214D8C7FB00D8FF67 /* RosterAppDelegate.m */,
 				EB48AD9414D8C7FB00D8FF67 /* MainStoryboard.storyboard */,
+				EB48ADA214D98C7C00D8FF67 /* AboutViewController.h */,
+				EB48ADA314D98C7C00D8FF67 /* AboutViewController.m */,
 				EB48AD9714D8C7FB00D8FF67 /* RosterMasterViewController.h */,
 				EB48AD9814D8C7FB00D8FF67 /* RosterMasterViewController.m */,
 				EB48AD9A14D8C7FB00D8FF67 /* RosterDetailViewController.h */,
@@ -101,6 +154,36 @@
 				EB48AD9014D8C7FB00D8FF67 /* Roster-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB48ADA714DB24EF00D8FF67 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB39CE6F14DC7B0000B4CB9D /* Home.png */,
+				EB39CE7014DC7B0000B4CB9D /* Contact.png */,
+				EB48ADA814DB24EF00D8FF67 /* ackbar_trap.png */,
+				EB48ADA914DB24EF00D8FF67 /* assassin_droid.png */,
+				EB48ADAA14DB24EF00D8FF67 /* c3p0_r2d2.png */,
+				EB48ADAB14DB24EF00D8FF67 /* darth_vader_faith.png */,
+				EB48ADAC14DB24EF00D8FF67 /* darth_vader_harmonica.png */,
+				EB48ADAD14DB24EF00D8FF67 /* death_star_earth.png */,
+				EB48ADAE14DB24EF00D8FF67 /* dog_ewok.png */,
+				EB48ADAF14DB24EF00D8FF67 /* ewok.png */,
+				EB48ADB014DB24EF00D8FF67 /* hello_vader.png */,
+				EB48ADB114DB24EF00D8FF67 /* insomnia_stormtrooper.png */,
+				EB48ADB214DB24EF00D8FF67 /* jango_fett.png */,
+				EB48ADB314DB24EF00D8FF67 /* lego_stormtrooper.png */,
+				EB48ADB414DB24EF00D8FF67 /* obi_wan.png */,
+				EB48ADB514DB24EF00D8FF67 /* revenge_of_the_jedi.png */,
+				EB48ADB614DB24EF00D8FF67 /* revenge_of_the_sith.png */,
+				EB48ADB714DB24EF00D8FF67 /* sith_eye.png */,
+				EB48ADB814DB24EF00D8FF67 /* star_wars_gang.png */,
+				EB48ADB914DB24EF00D8FF67 /* vader.png */,
+				EB48ADBA14DB24EF00D8FF67 /* yoda.png */,
+				EB48ADBB14DB24EF00D8FF67 /* yummy_cookies.png */,
+			);
+			name = images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +239,29 @@
 			files = (
 				EB48AD8D14D8C7FA00D8FF67 /* InfoPlist.strings in Resources */,
 				EB48AD9614D8C7FB00D8FF67 /* MainStoryboard.storyboard in Resources */,
+				EB48ADBC14DB24EF00D8FF67 /* ackbar_trap.png in Resources */,
+				EB48ADBD14DB24EF00D8FF67 /* assassin_droid.png in Resources */,
+				EB48ADBE14DB24EF00D8FF67 /* c3p0_r2d2.png in Resources */,
+				EB48ADBF14DB24EF00D8FF67 /* darth_vader_faith.png in Resources */,
+				EB48ADC014DB24EF00D8FF67 /* darth_vader_harmonica.png in Resources */,
+				EB48ADC114DB24EF00D8FF67 /* death_star_earth.png in Resources */,
+				EB48ADC214DB24EF00D8FF67 /* dog_ewok.png in Resources */,
+				EB48ADC314DB24EF00D8FF67 /* ewok.png in Resources */,
+				EB48ADC414DB24EF00D8FF67 /* hello_vader.png in Resources */,
+				EB48ADC514DB24EF00D8FF67 /* insomnia_stormtrooper.png in Resources */,
+				EB48ADC614DB24EF00D8FF67 /* jango_fett.png in Resources */,
+				EB48ADC714DB24EF00D8FF67 /* lego_stormtrooper.png in Resources */,
+				EB48ADC814DB24EF00D8FF67 /* obi_wan.png in Resources */,
+				EB48ADC914DB24EF00D8FF67 /* revenge_of_the_jedi.png in Resources */,
+				EB48ADCA14DB24EF00D8FF67 /* revenge_of_the_sith.png in Resources */,
+				EB48ADCB14DB24EF00D8FF67 /* sith_eye.png in Resources */,
+				EB48ADCC14DB24EF00D8FF67 /* star_wars_gang.png in Resources */,
+				EB48ADCD14DB24EF00D8FF67 /* vader.png in Resources */,
+				EB48ADCE14DB24EF00D8FF67 /* yoda.png in Resources */,
+				EB48ADCF14DB24EF00D8FF67 /* yummy_cookies.png in Resources */,
+				EB48ADD314DB25C700D8FF67 /* images.plist in Resources */,
+				EB39CE7114DC7B0000B4CB9D /* Home.png in Resources */,
+				EB39CE7214DC7B0000B4CB9D /* Contact.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +276,7 @@
 				EB48AD9314D8C7FB00D8FF67 /* RosterAppDelegate.m in Sources */,
 				EB48AD9914D8C7FB00D8FF67 /* RosterMasterViewController.m in Sources */,
 				EB48AD9C14D8C7FB00D8FF67 /* RosterDetailViewController.m in Sources */,
+				EB48ADA414D98C7C00D8FF67 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +388,7 @@
 				EB48ADA114D8C7FB00D8FF67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,6 @@
 
 @interface RosterMasterViewController : UITableViewController
 
+@property (nonatomic, strong) NSDictionary *roster;
+
 @end

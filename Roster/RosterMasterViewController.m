@@ -7,9 +7,11 @@
 //
 
 #import "RosterMasterViewController.h"
+#import "RosterDetailViewController.h"
 
 @implementation RosterMasterViewController
 
+@synthesize roster = _roster;
 
 - (void)awakeFromNib
 {
@@ -28,6 +30,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *file = [[NSBundle mainBundle] pathForResource:@"images" ofType:@"plist"];
+    self.roster = [NSDictionary dictionaryWithContentsOfFile:file];
 }
 
 - (void)viewDidUnload
@@ -63,42 +68,54 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    // Return the number of sections
+    return 1;
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
+    // Return the number of rows in the section
+    // Set to dictionary length
+    return self.roster.count;
 }
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    static NSString *CellIdentifier = @"imageNameCell";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil)
+    {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    // Configure the cell
+    NSDictionary *dict = [self.roster objectForKey:[NSString stringWithFormat:@"%i", indexPath.row]];
+    NSString *fileName = [dict objectForKey:@"fileName"];
+    
+    cell.textLabel.text = fileName;
+    return cell;
 }
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
+    if ([[segue identifier] isEqualToString:@"ImageDetailView"])
+    {
+        // Get reference to the destination view controller
+        RosterDetailViewController *vc = [segue destinationViewController];
+        
+        // Pass any objects to the detail view controller here, like...
+        
+        //NSLog(@"Index: %@", [self.tableView indexPathForCell:sender].row);
+        NSDictionary *item = [self.roster objectForKey:[NSString stringWithFormat:@"%i", [self.tableView indexPathForCell:sender].row]];
+        
+        vc.detailItem = item;
+        NSLog(@"Prepare For Segue File: %@", item);
+        
+    }
 }
-*/
 
 @end
